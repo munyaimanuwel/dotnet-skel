@@ -1,0 +1,16 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+TestResults/
+*.nupkg
+*.snupkg
+appsettings.*.local.json
+
+## OS / IDE
+.DS_Store
+.idea/
+*.swp

@@ -23,7 +23,7 @@ src/__NAME__.Domain/          # entities + domain interfaces (no deps)
 src/__NAME__.Application/     # services, DTOs
 src/__NAME__.Infrastructure/  # in-memory persistence (thin)
 src/__NAME__.API/             # host + ServiceCollection DI extensions
-test/__NAME__.Tests/
+test/__NAME__.Tests/          # functionality tests
 .github/workflows/ci.yml
 ```
 

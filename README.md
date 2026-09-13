@@ -30,8 +30,7 @@ cd acme-widget && dotnet test
 | `src/<Name>.Application/` | Services, DTOs, interfaces; refs Domain only |
 | `src/<Name>.Infrastructure/` | Thin in-memory `IUnitOfWork`; refs Domain + Application |
 | `src/<Name>.API/` | ASP.NET Core host; DI via `ServiceCollection/*.cs` |
-| `test/<Name>.Domain.Tests/` | xUnit smoke |
-| `test/<Name>.Application.Tests/` | xUnit smoke |
+| `test/<Name>.Tests/` | xUnit functionality smoke (refs Application) |
 | `.github/workflows/ci.yml` | restore / build / test on PR + main |
 
 Placeholders `__NAME__`, `__NAMESPACE__`, `__SLUG__` are replaced by `bin/new.sh`.

@@ -15,8 +15,8 @@ jobs:
         with:
           dotnet-version: "10.0.x"
       - name: Restore
-        run: dotnet restore __NAME__.sln
+        run: dotnet restore __NAME__.slnx
       - name: Build
-        run: dotnet build __NAME__.sln -c Release --no-restore
+        run: dotnet build __NAME__.slnx -c Release --no-restore
       - name: Test
-        run: dotnet test __NAME__.sln -c Release --no-build --verbosity normal
+        run: dotnet test __NAME__.slnx -c Release --no-build --verbosity normal

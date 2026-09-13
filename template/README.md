@@ -1,6 +1,6 @@
 # __NAME__
 
-Clean Architecture .NET 8 solution (Domain / Application / Infrastructure / API + tests).
+Clean Architecture .NET 10 solution (Domain / Application / Infrastructure / API + tests).
 
 ## Build
 

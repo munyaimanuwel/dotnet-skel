@@ -1,6 +1,6 @@
 # dotnet-skel
 
-Clean Architecture .NET 8 skeleton generator — Domain / Application / Infrastructure / API + tests.
+Clean Architecture .NET 10 skeleton generator — Domain / Application / Infrastructure / API + tests.
 
 Mirrors a typical ops-sentinel-style backend layout. Pass a name, get a full solution with DI via API `ServiceCollection` extensions.
 
